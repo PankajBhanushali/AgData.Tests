@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AGDATA.ApiTests", "AGDATA.Tests\AGDATA.ApiTests.csproj", "{C9688217-E823-45A6-8ABF-0C742D8AC5AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGDATA.ApiTests", "AGDATA.Tests\AGDATA.ApiTests.csproj", "{C9688217-E823-45A6-8ABF-0C742D8AC5AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AGDATA.Tests.UiTests", "AgData.Tests.UiTests\AGDATA.Tests.UiTests.csproj", "{C7D9378B-0F69-4989-AC5B-EC24B471AB14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C9688217-E823-45A6-8ABF-0C742D8AC5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9688217-E823-45A6-8ABF-0C742D8AC5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9688217-E823-45A6-8ABF-0C742D8AC5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D9378B-0F69-4989-AC5B-EC24B471AB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D9378B-0F69-4989-AC5B-EC24B471AB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D9378B-0F69-4989-AC5B-EC24B471AB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D9378B-0F69-4989-AC5B-EC24B471AB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

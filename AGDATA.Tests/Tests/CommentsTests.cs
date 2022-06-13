@@ -12,7 +12,7 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace AGDATA.Tests
+namespace AGDATA.ApiTests.Tests
 {
     [Parallelizable(scope: ParallelScope.All)]
     public class CommentsTests

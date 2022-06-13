@@ -1,6 +1,6 @@
+using OpenQA.Selenium;
 using System;
 using System.IO;
-using OpenQA.Selenium;
 
 namespace Framework.Selenium
 {

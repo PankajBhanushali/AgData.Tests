@@ -1,7 +1,7 @@
+using OpenQA.Selenium.Support.Extensions;
 using System;
 using System.Collections.ObjectModel;
 using System.Drawing;
-using OpenQA.Selenium.Support.Extensions;
 
 namespace Framework.Selenium
 {

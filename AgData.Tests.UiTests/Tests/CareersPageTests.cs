@@ -4,7 +4,7 @@ using Framework.Selenium;
 using NUnit.Framework;
 using NUnit.Framework.Interfaces;
 
-namespace Tests
+namespace AGData.Tests.UiTests
 {
     public class CareersPageTests
     {

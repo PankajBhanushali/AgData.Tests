@@ -1,6 +1,6 @@
+using OpenQA.Selenium;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using OpenQA.Selenium;
 
 namespace Framework.Selenium
 {

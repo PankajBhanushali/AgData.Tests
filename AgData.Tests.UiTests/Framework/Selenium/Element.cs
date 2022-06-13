@@ -1,8 +1,8 @@
+using OpenQA.Selenium;
+using OpenQA.Selenium.Interactions;
 using System;
 using System.Collections.ObjectModel;
 using System.Drawing;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
 
 namespace Framework.Selenium
 {

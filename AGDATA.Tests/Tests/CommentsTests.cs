@@ -2,15 +2,10 @@ using AGDATA.ApiTests.Models;
 using AGDATA.ApiTests.ServiceClients;
 using FluentAssertions;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using NUnit.Framework;
-using Serilog;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
 
 namespace AGDATA.ApiTests.Tests
 {

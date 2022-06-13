@@ -2,7 +2,6 @@
 using Framework.Selenium;
 using OpenQA.Selenium;
 using System.Linq;
-using System.Threading;
 
 namespace AgData.Tests.UiTests.Pages
 {
@@ -35,7 +34,7 @@ namespace AgData.Tests.UiTests.Pages
             var openJob = jobs.AsQueryable().ElementAt(elementIndex - 1);
             var ele = new Element(Driver.Wait.Until(WaitConditions.ElementIsDisplayed(openJob)), $"Job With Partial Text : {partialText}");
             string jobTitle = ele.Text;
-            
+
             //ele.ScrollToView(); Not working
             //ele.Hover(); Not working
             //ele.Click();//Not working

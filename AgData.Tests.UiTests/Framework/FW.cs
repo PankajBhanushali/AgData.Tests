@@ -1,9 +1,8 @@
-using System;
-using System.IO;
-using System.Linq;
 using Framework.Logging;
 using Newtonsoft.Json;
 using NUnit.Framework;
+using System;
+using System.IO;
 
 namespace Framework
 {
@@ -46,11 +45,11 @@ namespace Framework
 
         public static void SetLogger()
         {
-            lock(_setLoggerLock)
+            lock (_setLoggerLock)
             {
                 var testResultsDirectory = WORKSPACE_DIRECTORY + "TestResults";
                 var testName = TestContext.CurrentContext.Test.Name;
-                var testPath = $"{testResultsDirectory}\\{testName}".Replace("(\"","_").Replace("\")", "");
+                var testPath = $"{testResultsDirectory}\\{testName}".Replace("(\"", "_").Replace("\")", "");
 
                 if (Directory.Exists(testPath))
                 {

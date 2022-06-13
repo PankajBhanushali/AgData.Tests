@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using System.Diagnostics;
 
-namespace Tests
+namespace AGData.Tests.UiTests
 {
     [SetUpFixture]
     public class AssemblyBase
